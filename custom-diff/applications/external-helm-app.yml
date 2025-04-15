@@ -26,7 +26,7 @@ spec:
     - group: apps
       kind: Deployment
       jqPathExpressions:
-        - '.metadata.annotations.creation'
+        - '.metadata.annotations'
     - kind: Secret
       jqPathExpressions:
         - '.data.my-password'
