@@ -28,5 +28,5 @@ spec:
       jqPathExpressions:
         - '.metadata.annotations.creation'
     - kind: Secret
-      jqPathExpression:
+      jqPathExpressions:
         - '.data.my-password'
